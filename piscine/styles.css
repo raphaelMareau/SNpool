@@ -1,0 +1,166 @@
+h1 {
+    position:relative;
+    border-radius: 10px;
+    position:fixe;
+    text-align : center;
+    color:#778899;
+     background: linear-gradient(-90deg,#5CD6CB,#EEEEEE, #4C86A8);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	};
+	}
+
+ul li a{
+    
+    color:#aea0ad;
+    text-decoration:none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.part1 ul li a{
+    
+    color:#000;
+    text-decoration:none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+ul{list-style: none;}
+
+
+
+body {
+    background: linear-gradient(270deg,#4C86A8,#E0E0E0,#5CD6CB);
+    background-size: 300% 300%;
+    -webkit-animation: Background 45s ease infinite;
+    -moz-animation: Background 45s ease infinite;
+    animation: Background 35s ease infinite;
+}
+  @-webkit-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+ .full-screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://i.imgur.com/wCG2csZ.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: -webkit-none;
+    display: none;
+    -webkit-flex-direction: column
+    /* works with row or column */
+    
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+ h1 i   {
+    cursor: pointer;
+    position: absolute;
+    left:0.45%;
+    top:-14%;
+    }
+i{cursor: pointer;}
+h1 i2 {
+    cursor: pointer;
+    position: absolute;
+    right:0.45%;
+    top:-9%;    
+}
+a{
+    cursor: pointer;
+}
+#box{
+    cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+}
+.part1 {
+    
+    margin-left:1.5%;
+    padding: 8em;
+	color:#000;
+	border-radius: 10px;	background:url(https://cdn.lowgif.com/small/883e72de1308e5d1-iphone-pool-pinterest-animation-gifs-and-graphics.gif);
+    background-size:cover;
+    overflow: hidden;
+	text-align:center;
+	width: 10%;
+    height: 10%;
+	border: 1px solid;
+}
+
+
+
+#main {	
+  
+}
+
+
+
+#footer {
+	background-color:#aea0ad ;
+}
+
+ a1:hover {
+  color:#e9cfcc;
+}
+ a:hover {
+  color:#e9cfcc;
+}
+/* GIF un autre gif orange rouge jaune 
+https://cdn.dribbble.com/users/623359/screenshots/4547435/05-kirp-motion-dribbble.gif*/

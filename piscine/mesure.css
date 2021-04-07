@@ -1,0 +1,192 @@
+h1 {
+    position:relative;
+    border-radius: 10px;
+    position:fixe;
+    text-align : center;
+    color:#778899;
+    background: linear-gradient(-90deg, #F45263, #EEEEEE, #5CD6CB, #4C86A8);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	};
+	}
+
+ul li a1{
+    
+    color:#000;
+    text-decoration:none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+ul{list-style: none;}
+
+ul li1 a {
+    color:#333333;
+    text-decoration:none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    cursor:pointer;
+}
+
+
+body {
+    background: linear-gradient(270deg,#4C86A8,#5CD6CB,#E0E0E0,#F45263,#d54242);
+    background-size: 300% 300%;
+    -webkit-animation: Background 45s ease infinite;
+    -moz-animation: Background 45s ease infinite;
+    animation: Background 45s ease infinite;
+}
+  @-webkit-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+ .full-screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://i.imgur.com/wCG2csZ.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column
+    /* works with row or column */
+    
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+ h1 i   {
+    cursor: pointer;
+    position: absolute;
+    left:0.45%;
+    top:-14%;
+    }
+i{cursor: pointer;}
+h1 i2 {
+    cursor: pointer;
+    position: absolute;
+    right:0.45%;
+    top:-9%;    
+}
+a{
+    cursor: pointer;
+}
+#box{
+    cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+}
+.part1 {
+     background-color:#7FFFD4;
+    margin-left:1.5%;
+	color:#000;
+	border-radius: 10px;
+    background-size:cover;
+    overflow: hidden;
+	text-align:center;
+	width: 10%;
+    height: 10%;
+	border: 1px solid;
+}
+.part2 {
+	 background-color:#7FFFD4;
+    display: block;
+	border-radius: 10px;
+	color:#000;	
+    background-size:cover;
+    overflow: hidden;
+	text-align:center;
+	width: 10%;
+    height: 10%;
+	border: 1px solid;
+}
+.part3 {
+	 background-color:#7FFFD4;
+    margin-right:1.5%;
+	border-radius: 10px;
+	color:#000;	
+     background-size:cover;
+    overflow: hidden;
+	text-align:center;
+	width: 10%;
+	height:10%;
+	border: 1px solid;
+
+}
+
+#main {	
+  
+}
+
+
+img {
+    align-items: center;
+	width: 100px;
+	height: 0%;
+}
+
+#footer {
+	background-color:#aea0ad ;
+}
+
+ a1:hover {
+  color:#e9cfcc;
+}
+ a:hover {
+  color:#e9cfcc;
+}
+/* GIF un autre gif orange rouge jaune 
+https://cdn.dribbble.com/users/623359/screenshots/4547435/05-kirp-motion-dribbble.gif*/
